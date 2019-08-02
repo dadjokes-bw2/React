@@ -1,0 +1,8 @@
+export {default as LandingPage } from './LandingPage'
+export {default as LoginPage } from './LoginPage'
+export {default as SignUpPage } from './SignUpPage'
+export {default as PublicJokes} from './PublicJokes'
+export {default as AddPublicJoke} from './AddPublicJoke'
+export {default as AddPrivateJoke} from './AddPrivateJoke'
+export {default as PrivateJokes} from './PrivateJokes'
+export {default as EditPrivateJoke} from './EditPrivateJoke'

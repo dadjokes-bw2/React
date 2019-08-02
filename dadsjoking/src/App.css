@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: aliceblue;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card-text {
+  color: #282c34;
+}
