@@ -18,17 +18,20 @@ class LandingPage extends React.Component {
           <NavBar />
           <h1>Dad Jokes</h1>
           <h2>Welcome to Dad Jokes</h2>
+          <br />
           <Link to="/publicJokes">
             <Button outline color="primary">
               Public Jokes!
             </Button>
           </Link>
           <br />
+          <br />
           <Link to="/privateJokes">
             <Button outline color="primary">
-              Private Jokes!
+              Secret Jokes!
             </Button>
           </Link>
+          <br />
           <br />
           <div className = 'buttons'>
           {this.props.currentUser ? (
