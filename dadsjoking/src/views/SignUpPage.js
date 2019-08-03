@@ -39,6 +39,7 @@ class SignUpPage extends React.Component {
         const {isLoading, errorMessage} = this.props
         return (
             <div className = 'signup-page'>
+                <h2>Sign Up</h2>
                 <NavBar />
                 <Form>
                     <FormGroup>

@@ -39,6 +39,7 @@ class LoginPage extends React.Component {
         const {isLoading, errorMessage} = this.props
         return (
             <div className = 'loginForm'>
+                <h2>Login</h2>
                 <NavBar />
                 <Form>
                     <FormGroup>

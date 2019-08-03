@@ -20,14 +20,14 @@ class LandingPage extends React.Component {
           <h2>Welcome to Dad Jokes</h2>
           <br />
           <Link to="/publicJokes">
-            <Button outline color="primary">
+            <Button  color="primary">
               Public Jokes!
             </Button>
           </Link>
           <br />
           <br />
           <Link to="/privateJokes">
-            <Button outline color="primary">
+            <Button  color="primary">
               Secret Jokes!
             </Button>
           </Link>
@@ -35,16 +35,16 @@ class LandingPage extends React.Component {
           <br />
           <div className = 'buttons'>
           {this.props.currentUser ? (
-              <Button outline color = 'primary' onClick = {this.logout}>Log Out!</Button>
+              <Button  color = 'primary' onClick = {this.logout}>Log Out</Button>
           ) :(
               <div>
                 <Link to="/signup">
-                <Button outline color="secondary">
+                <Button  color="secondary">
                     Sign Up!
                 </Button>{" "}
                 </Link>
                 <Link to="/login">
-                <Button outline color="secondary">
+                <Button  color="secondary">
                     Log In
                 </Button>{" "}
                 </Link></div>)
