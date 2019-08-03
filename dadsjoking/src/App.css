@@ -22,8 +22,34 @@
   
 }
 
-.landing-page a {
-  
+.landing-page {
+  border: 4px outset #1C6EA4;
+border-radius: 15px;
+padding: 10%;
+}
+
+.public-jokes {
+  border: 4px outset #1C6EA4;
+  border-radius: 15px;
+  padding: 10%;
+}
+
+.private-jokes {
+  border: 4px outset #1C6EA4;
+  border-radius: 15px;
+  padding: 10%;
+}
+
+.signup-page {
+  border: 4px outset #1C6EA4;
+  border-radius: 15px;
+  padding: 10%;
+}
+
+.loginForm {
+  border: 4px outset #1C6EA4;
+  border-radius: 15px;
+  padding: 10%;
 }
 
 .nav-link {
