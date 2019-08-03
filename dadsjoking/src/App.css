@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
+  border: 1px dotted grey
 }
 
 .App-link {
@@ -15,4 +16,12 @@
 
 .card-text {
   color: #282c34;
+}
+
+.buttons {
+  
+}
+
+.landing-page a {
+  
 }
